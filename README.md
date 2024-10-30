@@ -25,3 +25,4 @@ Petunjuk:
 **Jawaban**
 Berikut ini adalah flowchart dari kasus 1 dan langkah-langkahnya
 
+![kalkulator](https://github.com/user-attachments/assets/673b6f26-0764-47d5-a241-24db4459b708)
