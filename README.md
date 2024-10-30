@@ -13,6 +13,57 @@ Petunjuk:
 Berikut ini adalah flowchart dari kasus 1 dan langkah-langkahnya
 ![Bioskop](https://github.com/user-attachments/assets/8be8f816-7cdd-4820-bdc0-1458de1284aa)
 
+1. **Mulai**  
+   Program dimulai.
+
+2. **Tampilkan menu program pemesanan tiket**  
+   Program akan menampilkan menu atau pilihan untuk pemesanan tiket. Pengguna dapat melihat informasi awal dan memilih jenis tiket yang diinginkan.
+
+3. **Input Tipe Tiket**  
+   Pengguna diminta memasukkan jenis tiket yang ingin dibeli. Misalnya, tiket bisa berupa "VIP" atau "Reguler".
+
+4. **Cek Tipe Tiket Valid atau Tidak**  
+   Program akan memeriksa apakah tipe tiket yang dimasukkan adalah valid atau sesuai dengan opsi yang ada.
+   - Jika **tidak valid** (misalnya pengguna salah mengetik), program akan meminta pengguna memasukkan kembali tipe tiket.
+   - Jika **valid**, program akan lanjut ke langkah berikutnya.
+
+5. **Input Status Member**  
+   Pengguna diminta memasukkan status keanggotaan, apakah mereka anggota (member) atau bukan. Keanggotaan ini dapat memberi pengaruh pada harga akhir tiket.
+
+6. **Cek Status Member Valid atau Tidak**  
+   Program memeriksa apakah status member yang dimasukkan valid atau tidak.
+   - Jika **tidak valid** (misalnya pengguna memasukkan data yang salah), program akan meminta pengguna memasukkan kembali status member.
+   - Jika **valid**, program akan lanjut ke langkah berikutnya.
+
+7. **Hitung Harga Tiket**  
+   Program mulai menghitung harga tiket berdasarkan tipe tiket yang dipilih.
+
+8. **Cek Apakah Tipe Tiket adalah VIP**  
+   Program akan memeriksa tipe tiket:
+   - Jika **VIP**, maka harga dasar tiket adalah **Rp 100.000**.
+   - Jika **bukan VIP** (misalnya tipe tiket reguler), maka harga dasar tiket adalah **Rp 50.000**.
+
+9. **Cek Apakah Pengguna adalah Member**  
+   Program akan memeriksa apakah pengguna adalah anggota (member).
+   - Jika **ya** (pengguna adalah member), maka pengguna akan mendapatkan **diskon sebesar 20% dari harga dasar**.
+   - Jika **tidak** (pengguna bukan member), maka **diskon = 0** atau tidak ada diskon yang diberikan.
+
+10. **Hitung Harga Akhir**  
+    Program akan menghitung total harga tiket yang harus dibayar oleh pengguna dengan mengurangi harga dasar dengan diskon (jika ada). Rumusnya adalah:
+    \[
+    \text{Harga Akhir} = \text{Harga Dasar} - \text{Diskon}
+    \]
+
+11. **Tampilkan Detail Pembayaran**  
+    Program akan menampilkan rincian pembayaran kepada pengguna, termasuk:
+    - **Tipe Tiket**: Apakah tiket yang dibeli VIP atau reguler.
+    - **Status Member**: Apakah pengguna adalah member atau bukan.
+    - **Harga Dasar**: Harga awal tiket sebelum diskon.
+    - **Diskon Member**: Jumlah diskon yang didapatkan jika pengguna adalah member.
+    - **Total Pembayaran**: Jumlah akhir yang harus dibayar oleh pengguna setelah diskon.
+
+12. **Selesai**  
+    Program selesai dan transaksi pemesanan tiket selesai dilakukan.
 
 **Soal**
 Kasus 2: Program Kalkulator Sederhana
