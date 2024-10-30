@@ -24,4 +24,4 @@ Petunjuk:
 
 **Jawaban**
 Berikut ini adalah flowchart dari kasus 1 dan langkah-langkahnya
-![kalkulator](https://github.com/user-attachments/assets/6f3c83b6-3a67-4344-89bc-4542a9ae84f5)
+
