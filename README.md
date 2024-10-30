@@ -1,7 +1,6 @@
-**Soal**
 Latihan 3: Buat program python untuk kasus berikut:
+**Soal Kasus 1: Program Pemesanan Tiket Bioskop**
 
-Kasus 1: Program Pemesanan Tiket Bioskop
 Buat program yang menghitung harga tiket bioskop. Tiket reguler berharga Rp50.000,
 sedangkan tiket VIP berharga Rp100.000. Jika user memiliki kartu member, mereka
 mendapatkan diskon 20% dari harga tiket. Program ini harus meminta tipe tiket dan status
@@ -65,8 +64,8 @@ Berikut ini adalah flowchart dari kasus 1 dan langkah-langkahnya
 12. **Selesai**  
     Program selesai dan transaksi pemesanan tiket selesai dilakukan.
 
-**Soal**
-Kasus 2: Program Kalkulator Sederhana
+**Soal Kasus 2: Program Kalkulator Sederhana**
+
 Buat program kalkulator yang menerima dua angka dan satu operator aritmatika dari
 pengguna (penjumlahan, pengurangan, perkalian, atau pembagian). Program akan
 menghitung hasil sesuai dengan operator yang dipilih.
